@@ -45,9 +45,10 @@ public class Manager extends Employee {
     }
 
     // 2.4
-      /**
-     * แสดงรายละเอียดของพนักงานทีมีเงื่อนไขเพิ่มเติม
-     */
+    /** แสดงรายละเอียดของพนักงาน
+    * 
+    * @param condition พนักที่มีเงื่อนไขที่ต้องเปลี่ยนราละเอียด
+    */
     public void displayDetails(String condition) {
         if ("full".equalsIgnoreCase(condition)) {
 
